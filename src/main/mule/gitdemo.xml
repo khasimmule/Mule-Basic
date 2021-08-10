@@ -11,5 +11,6 @@
 		</scheduler>
 		<logger level="INFO" doc:name="Logger" doc:id="1990d748-070f-47c0-bb22-5f52500d3db1" message="This is git Demo"/>
 		<logger level="INFO" doc:name="Logger" doc:id="ce8c1d60-54ed-4648-8365-856ac3c016bd" message="this is new change"/>
+		<logger level="INFO" doc:name="Logger" doc:id="3f063653-5bf4-4233-8a95-5a13e9a8bb8f" />
 	</flow>
 </mule>
