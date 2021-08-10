@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="gitdemoFlow" doc:id="b339f10b-ecec-4aa3-83aa-ae7730e97921" >
+		<scheduler doc:name="Scheduler" doc:id="7c1cb03c-a350-4d8c-9906-727474f10a77" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="1" timeUnit="MINUTES"/>
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="1990d748-070f-47c0-bb22-5f52500d3db1" message="This is git Demo"/>
+	</flow>
+</mule>
